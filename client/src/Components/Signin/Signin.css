@@ -1,0 +1,65 @@
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(300%)
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .animation2 {  
+    /* This section calls the slideInFromRight animation we defined above */
+    animation: 0.2s ease-out 0s 1 slideInFromRight;
+    
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-300%)
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .animation1 {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 0.2s ease-out 0s 1 slideInFromLeft;
+    
+  }
+  .signinmodal{
+    position: fixed;
+    width: 100vw;
+     height: 100vh;
+      align-items: center;
+    background-color: rgba(0, 0, 0, 0.641);
+      top:0;
+      left: 0;
+      z-index: 1;
+  }
+  .closesignin{
+    position: absolute;
+    top:0px;
+    left:103%;
+    width:40px;
+    height:30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.779);
+    font-weight: 600;
+  }
+  .closesignin:hover{
+    transition: 300ms;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255);
+  }
+  .toregister{
+    color:#0d6efd;
+    cursor: pointer;
+
+  }
+  .toregister:hover{
+    border-bottom: 1px solid #0d6efd;
+  }
+ 

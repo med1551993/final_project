@@ -1,0 +1,77 @@
+.form-control1{
+    width: 99% !important;
+}
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(300%)
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .animation2 {  
+    /* This section calls the slideInFromRight animation we defined above */
+    animation: 0.2s ease-out 0s 1 slideInFromRight;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-300%)
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .animation1 {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 0.2s ease-out 0s 1 slideInFromLeft;
+  }
+  .signupmodal{
+    position: fixed;
+    width: 100vw;
+     height: 100vh;
+      align-items: center;
+    background-color: rgba(0, 0, 0, 0.641);
+      top:0;
+      left: 0;
+      z-index: 1;
+  }
+  .closesignup{
+    position: absolute;
+    top:0;
+    left:102%;
+    width:40px;
+    height:30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.779);
+    font-weight: 600;
+  }
+  .closesignup:hover{
+    transition: 300ms;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255);
+  }
+  .tosignin{
+    color:#0d6efd;
+    cursor: pointer;
+  }
+  .tosignin:hover{
+    border-bottom: 1px solid #0d6efd;
+  }
+  .container{
+    width:1000px;
+    height:auto;
+  }
+ .col-xl-5{
+  width:50%;
+  height:auto;
+ }
+ .img-fluid{
+  width:100%;
+ }
+.col-xl-7{
+  width:50%;
+}

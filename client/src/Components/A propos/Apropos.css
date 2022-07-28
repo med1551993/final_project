@@ -1,0 +1,19 @@
+.b-imgapropos{
+    width: 1vw;
+    margin-top: 20px;
+    margin-left: 180px;
+
+}
+.apropos{
+    width:50vw;
+    height: 200px;
+    margin: 0 auto;
+    margin-top:50px;
+}
+.apropos p{
+    font:25px/30px Verdana, sans-serif;
+    line-height: 50px; 
+}
+.apropos p span{
+   font-weight: bold;
+}
